@@ -62,8 +62,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\Ingredients.xaml.cs">
-	    <DependentUpon>Ingredients.xaml</DependentUpon>
+	  <Compile Update="Views\IngredientsPage.xaml.cs">
+	    <DependentUpon>IngredientsPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\IngredientInput.xaml.cs">
 	    <DependentUpon>IngredientInput.xaml</DependentUpon>

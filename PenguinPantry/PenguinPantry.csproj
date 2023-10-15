@@ -49,9 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\camera.png" />
 	  <None Remove="Resources\Images\list.png" />
-	  <None Remove="Resources\Images\secondstrawberry.png" />
 	  <None Remove="Resources\Images\strawberry.png" />
 	</ItemGroup>
 
@@ -61,6 +59,12 @@
 
 	<ItemGroup>
 	  <Folder Include="ViewModels\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\Ingredients.xaml.cs">
+	    <DependentUpon>Ingredients.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>

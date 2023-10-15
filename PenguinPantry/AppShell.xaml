@@ -4,11 +4,16 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:PenguinPantry"
+    xmlns:views="clr-namespace:PenguinPantry.Views"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <TabBar>
+        <Tab Title="Ingredients" Icon="strawberry.png">
+            <ShellContent ContentTemplate="{DataTemplate views:MainPage}"></ShellContent>
+        </Tab>
+        <Tab Title="Recipes" Icon="list.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Recipes}"></ShellContent>
+        </Tab>
+    </TabBar>
+    
 </Shell>

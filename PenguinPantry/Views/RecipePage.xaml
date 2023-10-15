@@ -22,8 +22,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:Recipe">
                     <Grid Padding="10, 5">
-                        <Frame
-                            BorderColor="#EA4372">
+                        <Frame>
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RecipeViewModel}}, Path=ViewRecipeCommand}"
@@ -34,44 +33,53 @@
                               RowDefinitions="25, auto, auto, auto"
                               ColumnDefinitions=".4*, *, .5*">
                                 <Image x:Name="pfp" 
-                                           Grid.Row="0" 
-                                           Grid.Column="0" 
-                                           Source="{Binding Source}" 
-                                           Grid.RowSpan="3"
-                                           Grid.ColumnSpan="1"
-                                           HeightRequest="80"
-                                           Aspect="AspectFill"></Image>
+                                        Grid.Row="0" 
+                                        Grid.Column="0" 
+                                        Source="{Binding Source}" 
+                                        Grid.RowSpan="3"
+                                        Grid.ColumnSpan="1"
+                                        HeightRequest="80"
+                                        Aspect="AspectFill">
+
+                                </Image>
                                 <Label Text="{Binding Name}"
-                                       Padding="20, 0, 0, 0"
-                                       Grid.Column="1"
-                                       FontAttributes="Bold"></Label>
+                                        Padding="20, 0, 0, 0"
+                                        Grid.Column="1"
+                                        FontAttributes="Bold">
+
+                                </Label>
                                 <Label Text="{Binding Tags}"
                                         Padding="20, 0, 0, 0"
-                                       Grid.Row="1"
-                                       Grid.Column="1"
-                                       Grid.ColumnSpan="2"></Label>
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="2">
+
+                                </Label>
                                 <Label Text="{Binding Instructions}"
                                         Padding="30, 0, 0, 0"
-                                       TextColor="DimGray"
-                                       FontSize="12"
-                                       Grid.Row="2"
-                                       Grid.Column="1"
-                                       VerticalOptions="FillAndExpand"
-                                       Grid.ColumnSpan="2"></Label>
+                                        TextColor="DimGray"
+                                        FontSize="12"
+                                        Grid.Row="2"
+                                        Grid.Column="1"
+                                        VerticalOptions="FillAndExpand"
+                                        Grid.ColumnSpan="2">
+                                    
+                                </Label>
                                 <Label Text="{Binding Servings, StringFormat='Servings: {0}'}"
                                         Padding="20, 0, 0, 0"
-
-                                       Grid.Row="3"
-                                       TextColor="Gray"
-                                       Grid.Column="1">
+                                        Grid.Row="3"
+                                        TextColor="Gray"
+                                        Grid.Column="1">
 
                                 </Label>
                                 <Button Text="{Binding Cooktime, StringFormat='Cooktime: {0}'}"
                                         FontSize="12"
                                         Grid.Row="3"
-                                       Grid.Column="2"
+                                        Grid.Column="2"
                                         BackgroundColor="#EA4372"
-                                        HeightRequest="40"></Button>
+                                        HeightRequest="40">
+                                    
+                                </Button>
                             </Grid>
                         </Frame>
                     </Grid>

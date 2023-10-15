@@ -6,30 +6,38 @@
              xmlns:models="clr-namespace:PenguinPantry.Models"
              x:DataType="viewmodel:IngredientViewModel">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="0,0"
-            VerticalOptions="Fill">
+    <Shell.TitleView>
+        <HorizontalStackLayout 
+        Margin="0, 5, 0, 0"
+        HorizontalOptions="Start"
+        BackgroundColor="#EA4372">
+            <Label FontSize="30" 
+               FontAttributes="Bold"
+               Text="PenguinPantry"></Label>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
 
-            <Button Text="+" 
-                    WidthRequest="100" 
-                    HeightRequest="100" 
-                    FontSize="40" 
-                    VerticalOptions="Start" 
-                    HorizontalOptions="End"
-                    Margin="15">
-                
-            </Button>
+    <Grid RowDefinitions="*">
 
+        <CollectionView ItemsSource="{Binding ingredients}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete" BackgroundColor="Red"></SwipeItem>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid Padding="0,5">
+                            <Frame Padding="10">
+                                <Label Text="{Binding .}" FontSize="20"></Label>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
 
-            <Border Margin="15" VerticalOptions="StartAndExpand">
-                <CollectionView x:Name="foo" Margin="15">
-                </CollectionView>
-            </Border>
-            
-
-        </VerticalStackLayout>
-    </ScrollView>
+        </CollectionView>
+    </Grid>
 
 </ContentPage>

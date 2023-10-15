@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = PenguinPantry
-build_property.ProjectDir = C:\Users\jac\source\Hackathon2023\PenguinPantry\PenguinPantry\
+build_property.ProjectDir = C:\Users\jac\OneDrive\Documents\School\2nd Year UW Bothell\Hackathon 2023\PenguinPantry\PenguinPantry\
 
-[C:/Users/jac/source/Hackathon2023/PenguinPantry/PenguinPantry/App.xaml]
+[C:/Users/jac/OneDrive/Documents/School/2nd Year UW Bothell/Hackathon 2023/PenguinPantry/PenguinPantry/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PenguinPantry.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jac/source/Hackathon2023/PenguinPantry/PenguinPantry/AppShell.xaml]
+[C:/Users/jac/OneDrive/Documents/School/2nd Year UW Bothell/Hackathon 2023/PenguinPantry/PenguinPantry/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PenguinPantry.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jac/source/Hackathon2023/PenguinPantry/PenguinPantry/MainPage.xaml]
+[C:/Users/jac/OneDrive/Documents/School/2nd Year UW Bothell/Hackathon 2023/PenguinPantry/PenguinPantry/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PenguinPantry.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jac/source/Hackathon2023/PenguinPantry/PenguinPantry/Resources/Styles/Colors.xaml]
+[C:/Users/jac/OneDrive/Documents/School/2nd Year UW Bothell/Hackathon 2023/PenguinPantry/PenguinPantry/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PenguinPantry.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jac/source/Hackathon2023/PenguinPantry/PenguinPantry/Resources/Styles/Styles.xaml]
+[C:/Users/jac/OneDrive/Documents/School/2nd Year UW Bothell/Hackathon 2023/PenguinPantry/PenguinPantry/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PenguinPantry.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -8,5 +8,24 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Grid ColumnDefinitions="*, 100" Margin="15">
+            <Entry x:Name="entryIngredients" Grid.Column="0">
+
+            </Entry>
+
+            <Button Text="Enter" Grid.Column="1">
+
+            </Button>
+        </Grid>
+
+
+        <Label HorizontalOptions="Center"
+               FontSize="30">
+            Or scan your receipt!
+        </Label>
+        <Button Margin="15" FontSize="40" Text="Scan">
+            
+        </Button>
     </VerticalStackLayout>
 </ContentPage>

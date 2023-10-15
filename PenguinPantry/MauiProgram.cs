@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using PenguinPantry.ViewModels;
+using Microsoft.Extensions.Logging;
+using PenguinPantry.Views;
 
 namespace PenguinPantry;
 
@@ -19,6 +21,14 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 #endif
 
-		return builder.Build();
+		builder.Services.AddSingleton<RecipePage>();
+		builder.Services.AddSingleton<RecipeViewModel>();
+
+        builder.Services.AddSingleton<IngredientInputPage>();
+        builder.Services.AddSingleton<IngredientInputViewModel>();
+
+		RequestsClient.LoadDBs();
+
+        return builder.Build();
 	}
 }

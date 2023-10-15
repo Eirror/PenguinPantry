@@ -51,24 +51,30 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\list.png" />
 	  <None Remove="Resources\Images\strawberry.png" />
+	  <None Remove="Resources\Raw\db-recipes.json" />
+	  <None Remove="resources\raw\ingredients.json" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="ViewModels\" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Compile Update="Views\Ingredients.xaml.cs">
 	    <DependentUpon>Ingredients.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\IngredientInput.xaml.cs">
+	    <DependentUpon>IngredientInput.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\Recipes.xaml">
+	  <MauiXaml Update="Views\IngredientInput.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\RecipePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

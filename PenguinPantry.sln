@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenguinPantry", "PenguinPantry\PenguinPantry.csproj", "{31207FA1-EE76-45D8-9063-75E7840BF38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenguinPantry", "PenguinPantry.csproj", "{31207FA1-EE76-45D8-9063-75E7840BF38B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

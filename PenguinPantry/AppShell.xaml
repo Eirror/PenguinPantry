@@ -8,7 +8,10 @@
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
-        <Tab Title="Ingredients" Icon="strawberry.png">
+        <Tab Title="Add Ingredients" Icon="plus.png">
+            <ShellContent ContentTemplate="{DataTemplate views:IngredientInputPage}"></ShellContent>
+        </Tab>
+        <Tab Title="Ingredients List" Icon="strawberry.png">
             <ShellContent ContentTemplate="{DataTemplate views:IngredientsPage}"></ShellContent>
         </Tab>
         <Tab Title="Recipes" Icon="list.png">

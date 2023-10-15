@@ -65,13 +65,13 @@
 	  <Compile Update="Views\IngredientsPage.xaml.cs">
 	    <DependentUpon>IngredientsPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\IngredientInput.xaml.cs">
-	    <DependentUpon>IngredientInput.xaml</DependentUpon>
+	  <Compile Update="Views\IngredientInputPage.xaml.cs">
+	    <DependentUpon>IngredientInputPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\IngredientInput.xaml">
+	  <MauiXaml Update="Views\IngredientInputPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\RecipePage.xaml">

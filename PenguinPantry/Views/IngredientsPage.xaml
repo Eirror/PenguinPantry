@@ -19,7 +19,7 @@
 
     <Grid RowDefinitions="*">
 
-        <CollectionView ItemsSource="{Binding ingredients}">
+        <CollectionView ItemsSource="{Binding Ingredients}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <SwipeView>

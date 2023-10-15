@@ -9,7 +9,7 @@
 
     <TabBar>
         <Tab Title="Ingredients" Icon="strawberry.png">
-            <ShellContent ContentTemplate="{DataTemplate views:Ingredients}"></ShellContent>
+            <ShellContent ContentTemplate="{DataTemplate views:IngredientsPage}"></ShellContent>
         </Tab>
         <Tab Title="Recipes" Icon="list.png">
             <ShellContent ContentTemplate="{DataTemplate views:RecipePage}"></ShellContent>

@@ -1,8 +1,8 @@
 ﻿namespace PenguinPantry.Views;
 
-public partial class Ingredients : ContentPage
+public partial class IngredientsPage : ContentPage
 {
-	public Ingredients()
+	public IngredientsPage()
 	{
 		InitializeComponent();
 		foo.ItemsSource = RequestsClient.Ingredients;

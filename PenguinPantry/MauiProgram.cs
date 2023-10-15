@@ -24,6 +24,9 @@ public static class MauiProgram
 		builder.Services.AddSingleton<RecipePage>();
 		builder.Services.AddSingleton<RecipeViewModel>();
 
+        builder.Services.AddSingleton<IngredientsPage>();
+        builder.Services.AddSingleton<IngredientViewModel>();
+
         builder.Services.AddSingleton<IngredientInputPage>();
         builder.Services.AddSingleton<IngredientInputViewModel>();
 
